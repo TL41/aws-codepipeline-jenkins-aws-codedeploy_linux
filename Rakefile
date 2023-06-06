@@ -1,11 +1,12 @@
 #!/usr/bin/env ruby
 
-put 'Print'
+
 require 'rake/testtask'
 require 'rubygems'
 require 'rake'
 require 'haml'
 
+put 'Print'
 task default: :compile
 
 task :compile do
