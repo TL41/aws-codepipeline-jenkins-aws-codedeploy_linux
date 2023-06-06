@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+desc 'Print'
 require 'rake/testtask'
 require 'rubygems'
 require 'rake'
